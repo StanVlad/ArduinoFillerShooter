@@ -1,7 +1,7 @@
 # ArduinoFillerShooter
 
 Componente folosite:
-1 x placa Arduino UNO
+1 x placa Arduino UNO\n
 1 x breadboard mare
 1 x breadboard mic
 1 x matrice led-uri
