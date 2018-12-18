@@ -1,16 +1,16 @@
 # ArduinoFillerShooter
 
 Componente folosite:
-1 x placa Arduino UNO\n
-1 x breadboard mare
-1 x breadboard mic
-1 x matrice led-uri
-1 x driver pt. matrice
-1 x joystick
-5 x fire tip mama-tata
-29 x fire tip tata-tata
-1 x rezistor 100k
-2 x condensator
+1 x placa Arduino UNO,
+1 x breadboard mare,
+1 x breadboard mic,
+1 x matrice led-uri,
+1 x driver pt. matrice,
+1 x joystick,
+5 x fire tip mama-tata,
+29 x fire tip tata-tata,
+1 x rezistor 100k,
+2 x condensator.
 
 Scopul jocului:
 Controleaza tancul si umple cat mai multe spatii goale din formele care se indreapta spre tine, pentru a acumula puncte si pentru a evita sa fii distrus. Fiecare rand umplut reprezinta un punct. Jocul se termina cand formele au ajuns la tancul tau.
