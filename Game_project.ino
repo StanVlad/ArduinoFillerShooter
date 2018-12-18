@@ -466,6 +466,7 @@ void loop()
         fillLevel += 1;
         if (fillLevel > 6) //daca jucatorul a pierdut
         {
+            destroyed:
             for (int i = 0; i < 5; i++) //se reda de 5 ori animatia pentru explozie
                 explosionAnimation();
                 
@@ -527,6 +528,8 @@ void loop()
     {
         int row = 5;
         int col = shipCannon;
+        if (matrix[row][col] == 1) //daca jucatorul trage dar nu are spatiu suficient explodeaza
+            goto destroyed;
         matrix[row][col] = 1;
         lc.setLed(0, row, col, matrix[row][col]);
         delay(70);
