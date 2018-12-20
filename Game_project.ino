@@ -444,8 +444,8 @@ void loop()
     //de aici jocul in sine
 
     for (int i = 0; i < 8; i++)
-            for (int j = 0; j < 8; j++)
-                lc.setLed(0, i, j, matrix[i][j]); //in fiecare loop se face o afisare completa a matricei
+        for (int j = 0; j < 8; j++)
+            lc.setLed(0, i, j, matrix[i][j]); //in fiecare loop se face o afisare completa a matricei
                 
     xValue = analogRead(X_PIN);
     motionPresent = millis();
