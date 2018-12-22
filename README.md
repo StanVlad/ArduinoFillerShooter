@@ -26,3 +26,7 @@ Prin miscarea stanga-dreapta a joystick-ului, jucatorul controleaza tancul. Prin
 Cand jucatorul va pierde, scorul se va afisa pe matrice timp de 5 secunde, dupa care matricea se reseteaza si revine la meniul initial.
 
 Distractie placuta!
+
+Documentatie video:
+https://drive.google.com/open?id=1P8oEbGPE45eAsXQvykcjLfRUlQ1KDwU4
+
